@@ -1,0 +1,17 @@
+How do I create my own unchecked exception
+
+BreakTimeException,
+BrainOutofMemoryException,
+what is unchecked exception > Anything  IS-A relationship RunTimeException
+so All you need is to create a subclass of RunTimeException with your name
+
+
+public class BreakTimeException extends RunTimeException (or any sub class of it){
+}
+
+How do you create your own checked exception{
+
+All you need to do is to create a subclass of any checked exception with you own name
+
+ example:
+ public class HittingHeadToWallException extends Exception (or any subclass of it){}
